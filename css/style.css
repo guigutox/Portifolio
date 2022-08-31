@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700;800&display=swap');
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oxanium', cursive;
+}
+
+.navbar{
+    position: sticky;
+    top:0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.linavbar{
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+.linavbar:last-child{
+    border-right: none;
+}
+
+.linavbar a{
+
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.linavbar a:hover{
+    background-color: #111;
+}
+
+.card{
+    height: 40%;
+    
+    padding: 5px;
+    margin: 5px;
+}
+
+.titulo{
+
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    font-size: 110%;
+    font-weight: bolder;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
